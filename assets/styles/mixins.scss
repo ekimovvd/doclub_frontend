@@ -1,8 +1,19 @@
+@mixin small-screen {
+    @media screen and (max-width: 768px) {
+        width: 366px;
+    }
+}
+
 @mixin container-full {
     width: 1170px;
     margin: 0 auto;
 
-    @media screen and (max-width: 768px) {
-        width: 366px;
-    }
+    @include small-screen();
+}
+
+@mixin container-medium {
+    width: 768px;
+    margin: 0 auto;
+
+    @include small-screen();
 }

@@ -53,7 +53,6 @@
 
     .the-registration-banner__title {
         font-family: $roboto-medium;
-        font-size: 34px;
         line-height: 41px;
         letter-spacing: 0.374px;
         color: #ffffff;
