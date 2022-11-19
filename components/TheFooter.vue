@@ -159,7 +159,6 @@
         padding: 30px 0 32px 0;
 
         .the-footer__container {
-            width: 366px;
             grid-column-gap: 0;
             grid-row-gap: 32px;
             flex-direction: column;

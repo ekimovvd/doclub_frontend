@@ -1,3 +1,4 @@
 <template>
+    <TheRegistrationBanner />
     <TheFooter />
 </template>
