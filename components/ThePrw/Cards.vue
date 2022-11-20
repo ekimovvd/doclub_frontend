@@ -42,12 +42,12 @@
 
 <style lang="scss">
 .the-prw-cards {
+    background: #ffffff;
     padding-bottom: 48px;
 
     .the-prw-cards__container {
         @include container-medium;
         display: flex;
-        align-items: center;
         justify-content: space-between;
     }
 
