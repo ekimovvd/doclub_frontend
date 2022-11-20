@@ -1,58 +1,53 @@
 @font-face {
-    font-family: "Roboto-Regular";
+    font-family: "Roboto";
     font-weight: 400;
     font-style: normal;
-    font-display: swap;
-    src: local("Roboto-Regular"),
+    src: local("Roboto"), local("Roboto-Regular"),
         url("./Roboto/Roboto-Regular.woff") format("woff"),
         url("./Roboto/Roboto-Regular.woff2") format("woff2");
 }
 
 @font-face {
-    font-family: "Roboto-Medium";
+    font-family: "Roboto";
     font-weight: 500;
     font-style: normal;
-    font-display: swap;
-    src: local("Roboto-Medium"),
+    src: local("Roboto"), local("Roboto-Medium"),
         url("./Roboto/Roboto-Medium.woff") format("woff"),
         url("./Roboto/Roboto-Medium.woff2") format("woff2");
 }
 
 @font-face {
-    font-family: "Roboto-Bold";
+    font-family: "Roboto";
     font-weight: 700;
     font-style: normal;
-    font-display: swap;
-    src: local("Roboto-Bold"), url("./Roboto/Roboto-Bold.woff") format("woff"),
+    src: local("Roboto"), local("Roboto-Bold"),
+        url("./Roboto/Roboto-Bold.woff") format("woff"),
         url("./Roboto/Roboto-Bold.woff2") format("woff2");
 }
 
 @font-face {
-    font-family: "Montserrat-Regular";
+    font-family: "Montserrat";
     font-weight: 400;
     font-style: normal;
-    font-display: swap;
-    src: local("Montserrat-Regular"),
+    src: local("Montserrat"), local("Montserrat-Regular"),
         url("./Montserrat/Montserrat-Regular.woff") format("woff"),
         url("./Montserrat/Montserrat-Regular.woff2") format("woff2");
 }
 
 @font-face {
-    font-family: "Montserrat-Medium";
+    font-family: "Montserrat";
     font-weight: 500;
     font-style: normal;
-    font-display: swap;
-    src: local("Montserrat-Medium"),
+    src: local("Montserrat"), local("Montserrat-Medium"),
         url("./Montserrat/Montserrat-Medium.woff") format("woff"),
         url("./Montserrat/Montserrat-Medium.woff2") format("woff2");
 }
 
 @font-face {
-    font-family: "Montserrat-Bold";
+    font-family: "Montserrat";
     font-weight: 700;
     font-style: normal;
-    font-display: swap;
-    src: local("Montserrat-Bold"),
+    src: local("Montserrat"), local("Montserrat-Bold"),
         url("./Montserrat/Montserrat-Bold.woff") format("woff"),
         url("./Montserrat/Montserrat-Bold.woff2") format("woff2");
 }

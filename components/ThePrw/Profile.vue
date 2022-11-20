@@ -70,6 +70,7 @@
     position: relative;
     background: #ffffff;
     padding: 148px 0 32px 0;
+    font-family: "Roboto", sans-serif;
 
     &__container {
         @include container-medium;
@@ -92,14 +93,14 @@
     }
 
     .the-prw-profile__info-title {
-        font-family: $roboto-medium;
+        font-weight: 700;
         line-height: 41px;
         letter-spacing: 0.374px;
         color: #000000;
     }
 
     .the-prw-profile__info-label {
-        font-family: $roboto-regular;
+        font-weight: 400;
         font-size: 20px;
         line-height: 24px;
         letter-spacing: 0.38px;
@@ -140,7 +141,7 @@
     }
 
     .the-prw-profile__description-label {
-        font-family: $roboto-regular;
+        font-weight: 400;
         font-size: 20px;
         line-height: 24px;
         text-align: center;

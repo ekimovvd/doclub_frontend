@@ -90,7 +90,8 @@ export default defineComponent({
     }
 
     .the-prw-certificate__title {
-        font-family: $roboto-medium;
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
         text-align: center;
         font-size: 34px;
         line-height: 41px;

@@ -1,5 +1,5 @@
 export default defineNuxtConfig({
-    css: ["@/assets/styles/styles.scss"],
+    css: ["@/assets/fonts/fonts.css", "@/assets/styles/styles.scss"],
     vite: {
         css: {
             preprocessorOptions: {

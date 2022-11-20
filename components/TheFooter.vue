@@ -73,6 +73,7 @@
     padding: 64px 0px;
     background: #f8f9fb;
     border-top: 1px solid #e8e8ee;
+    font-family: "Roboto", sans-serif;
 
     .the-footer__container {
         @include container-full;
@@ -88,14 +89,15 @@
     }
 
     .the-footer__logo-label {
-        font-family: $roboto-regular;
+        font-weight: 400;
         font-size: 14px;
         line-height: 16px;
         color: #676f7e;
     }
 
     .the-footer__title {
-        font-family: $montserrat-bold;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 700;
         font-size: 16px;
         line-height: 20px;
         letter-spacing: 0.5px;
@@ -116,7 +118,7 @@
     }
 
     .the-footer__bot {
-        font-family: $roboto-regular;
+        font-weight: 400;
         font-size: 14px;
         line-height: 16px;
         letter-spacing: 0.2px;
@@ -145,7 +147,7 @@
     }
 
     .the-footer__link-label {
-        font-family: $roboto-regular;
+        font-weight: 400;
         font-size: 14px;
         line-height: 16px;
         letter-spacing: 0.2px;

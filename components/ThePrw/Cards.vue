@@ -60,17 +60,18 @@
         display: flex;
         flex-direction: column;
         grid-row-gap: 24px;
+        font-family: "Roboto", sans-serif;
     }
 
     .the-prw-cards__header-title {
-        font-family: $roboto-medium;
+        font-weight: 700;
         line-height: 24px;
         letter-spacing: 0.35px;
         color: #000000;
     }
 
     .the-prw-cards__header-label {
-        font-family: $roboto-regular;
+        font-weight: 400;
         font-size: 16px;
         line-height: 20px;
         color: #676872;
@@ -78,13 +79,13 @@
     }
 
     .the-prw-cards__footer-title {
-        font-family: $roboto-medium;
+        font-weight: 700;
         line-height: 20px;
         color: #000000;
     }
 
     .the-prw-cards__footer-label {
-        font-family: $roboto-regular;
+        font-weight: 400;
         line-height: 20px;
         color: #676872;
         margin-top: 8px;

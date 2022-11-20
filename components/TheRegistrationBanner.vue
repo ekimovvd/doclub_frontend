@@ -44,6 +44,7 @@
 <style lang="scss">
 .the-registration-banner {
     background: #2c307e;
+    font-family: "Roboto", sans-serif;
 
     .the-registration-banner__container {
         @include container-full;
@@ -52,14 +53,14 @@
     }
 
     .the-registration-banner__title {
-        font-family: $roboto-medium;
+        font-weight: 500;
         line-height: 41px;
         letter-spacing: 0.374px;
         color: #ffffff;
     }
 
     .the-registration-banner__label {
-        font-family: $roboto-regular;
+        font-weight: 400;
         font-size: 20px;
         line-height: 24px;
         color: #ffffff;
@@ -77,7 +78,8 @@
     }
 
     .the-registration-banner__button-label {
-        font-family: $roboto-medium;
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
         font-size: 16px;
         line-height: 20px;
         color: #000000;
